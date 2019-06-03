@@ -7,7 +7,7 @@ Clone repository at https://github.com/jenkins-oscar/skiapp
 
 ```bash
 # clone only the last commit from the master branch of the ski app
-git clone --depth 1 -b master https://github.com/jenkins-oscar/skiapp  
+git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp 
 
 cd skiapp
 
