@@ -6,20 +6,18 @@ This presentation takes the user through various changes to the `skiapp` reposit
 Clone repository at https://github.com/jenkins-oscar/skiapp
 
 ```bash
+# create the repo first
+hub create jenkins-oscar/skierapp.git
+
 # clone only the last commit from the master branch of the ski app
 git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp
-cd skierapp
 
-echo "Remove GIT"
-rm -rf .git
+cd skierapp && rm -rf .git
 
 echo "Init GIT"
-git init
-git add .
-git commit -m "Initial Commit"
-git remote add origin git@github.com:jenkins-oscar/skierapp.git
+git init && git add .
+git commit -m "Initial Commit" && git remote add origin git@github.com:jenkins-oscar/skierapp.git
 
-echo "Push..."
 git push -u origin master
 
 
