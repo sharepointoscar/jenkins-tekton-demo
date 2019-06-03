@@ -1,0 +1,16 @@
+buildPack: javascript
+pipelineConfig:
+  pipelines:
+    overrides:
+    - pipeline: release
+      stage: build
+      type: before
+      steps:
+        - sh: echo ====================================== PREPENDING  Release Pipeline, Build Stage, Before execution of default stuff ======================================
+          name: sposcar-prepending-step
+    - pipeline: release
+      stage: build
+      type: after
+      steps:
+        - sh: echo ====================================== APPENDING  Release Pipeline, Build Stage, Before execution of default stuff ======================================
+          name: sposcar-appending-step

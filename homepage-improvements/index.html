@@ -1,0 +1,86 @@
+<!doctype html>
+<style>
+/*
+ * Hide scrollbars
+ */
+
+ #wrapper {
+    overflow: hidden;
+}
+
+/*
+ * Basic styles
+ */
+
+.img-fullscreen {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-fullscreen img {
+    vertical-align: middle;
+    position: absolute;
+    display: table;
+    margin: auto;
+    height: auto;
+    width: auto;
+    bottom: -100%;
+    right: -100%;
+    left: -100%;
+    top: -100%;
+}
+
+.img-fullscreen .full-width {
+    width: 100%;
+}
+
+.img-fullscreen .full-height {
+    height: 100%;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<html>
+	<body>
+		<div id="wrapper">
+			<div class="img-fullscreen">
+				<!-- switch between backtround images -->	
+				<img src="https://coresites-cdn.factorymedia.com/mpora_new/wp-content/uploads/2018/02/David-Wise-D15-MHPQ-02812.jpg" alt=""/>
+				<!-- <img src="http://a.espncdn.com/media/motion/2017/0128/actn_170126_ACTN_SKI_KEVIN_ROLLAND_LIFEPROOF1201/actn_170126_ACTN_SKI_KEVIN_ROLLAND_LIFEPROOF1201.jpg" alt=""/> -->
+			</div>
+		</div>
+	</body>
+	<script>
+		jQuery(function($) {
+			function resizeImage() {
+				$('.img-fullscreen').each(function () {
+					var $imgWrp = $(this);
+		
+					$('img', this).each(function () {
+						var imgW = $(this)[0].width,
+							imgH = $(this)[0].height;
+		
+						$(this).removeClass();
+		
+						$imgWrp.css({
+							width: $(window).width(),
+							height: $(window).height()
+						});
+		
+						imgW / imgH < $(window).width() / $(window).height() ?
+							$(this).addClass('full-width') : $(this).addClass('full-height');
+					});
+				});
+			}
+		
+			window.onload = function () {
+				resizeImage();
+			};
+		
+			window.onresize = function () {
+				setTimeout(resizeImage, 300);
+			};
+		 
+			resizeImage();
+		});
+		</script>
+</html>
