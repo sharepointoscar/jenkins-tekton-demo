@@ -7,9 +7,21 @@ Clone repository at https://github.com/jenkins-oscar/skiapp
 
 ```bash
 # clone only the last commit from the master branch of the ski app
-git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp 
+git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp
+cd skierapp
 
-cd skiapp
+echo "Remove GIT"
+rm -rf .git
+
+echo "Init GIT"
+git init
+git add .
+git commit -m "Initial Commit"
+git remote add origin git@github.com:jenkins-oscar/skierapp.git
+
+echo "Push..."
+git push -u origin master
+
 
 # in the root of the skiapp directory
 jx import .
