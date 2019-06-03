@@ -22,6 +22,8 @@ git push -u origin master
 
 
 # in the root of the skiapp directory
+# we need to remove the git, then import.
+rm -rf .git
 jx import .
 ```
 
