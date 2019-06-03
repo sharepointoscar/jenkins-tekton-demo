@@ -2,8 +2,19 @@
 This presentation takes the user through various changes to the `skiapp` repository.  Each folder represents a **Github Branch**
 
 
-# Getting Started
+# Getting Started - Import Skiapp
 Clone repository at https://github.com/jenkins-oscar/skiapp
+
+```bash
+# clone only the last commit from the master branch of the ski app
+git clone --depth 1 -b master https://github.com/jenkins-oscar/skiapp  
+
+cd skiapp
+
+# in the root of the skiapp directory
+jx import .
+```
+
 # Homepage Changes
 
 1. In the cloned app root directory execute:
