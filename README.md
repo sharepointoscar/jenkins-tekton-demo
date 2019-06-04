@@ -24,7 +24,8 @@ git push -u origin master
 # in the root of the skiapp directory
 # we need to remove the git, then import.
 rm -rf .git
-jx import .
+
+jx import --url git@github.com:jenkins-oscar/skierapp.git --name skiaway
 ```
 
 # Homepage Changes
