@@ -86,4 +86,10 @@ hub delete jenkins-x/oscar/skierapp
 # delete local repo 
 cd ~/git-repos && rm -rf skierapp
 
+# delete app from jx
+jx delete application 
+
+# clean up resources
+jx gc previews && jx gc pods && jx gc helm
+
 ```
