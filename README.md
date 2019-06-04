@@ -25,7 +25,7 @@ git push -u origin master
 # we need to remove the git, then import.
 rm -rf .git
 
-jx import --url git@github.com:jenkins-oscar/skierapp.git --name skiaway
+jx import --url git@github.com:jenkins-oscar/skierapp.git --name skiaway --git-username=sharepointoscar
 ```
 
 # Homepage Changes
