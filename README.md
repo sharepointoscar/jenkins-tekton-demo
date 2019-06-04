@@ -12,12 +12,13 @@ git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp
 
 cd skierapp && rm -rf .git
 
-# create the repo on github
-hub create jenkins-oscar/skierapp.git
 
 echo "Init GIT"
 git init && git add .
 git commit -m "Initial Commit" && git remote add origin git@github.com:jenkins-oscar/skierapp.git
+
+# create the repo on github
+hub create jenkins-oscar/skierapp.git
 
 git push -u origin master
 
