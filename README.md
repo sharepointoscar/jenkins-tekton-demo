@@ -76,3 +76,14 @@ git push
 #checkout -b tekton-prepend-stage-custom-steps
 ```
 4. View logs
+
+# Cleanup
+
+```bash
+# delete skierapp repo
+hub delete jenkins-x/oscar/skierapp
+
+# delete local repo 
+cd ~/git-repos && rm -rf skierapp
+
+```
