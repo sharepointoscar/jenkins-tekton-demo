@@ -6,13 +6,14 @@ This presentation takes the user through various changes to the `skiapp` reposit
 Clone repository at https://github.com/jenkins-oscar/skiapp
 
 ```bash
-# create the repo first
-hub create jenkins-oscar/skierapp.git
 
 # clone only the last commit from the master branch of the ski app
 git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp
 
 cd skierapp && rm -rf .git
+
+# create the repo on github
+hub create jenkins-oscar/skierapp.git
 
 echo "Init GIT"
 git init && git add .
@@ -22,9 +23,6 @@ git push -u origin master
 
 
 # in the root of the skiapp directory
-# we need to remove the git, then import.
-rm -rf .git
-
 jx import --url git@github.com:jenkins-oscar/skierapp.git --name skiaway --git-username=sharepointoscar
 ```
 
