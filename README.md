@@ -8,23 +8,23 @@ Clone repository at https://github.com/jenkins-oscar/skiapp
 ```bash
 
 # clone only the last commit from the master branch of the ski app
-git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skierapp
+git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skiersapp
 
-cd skierapp && rm -rf .git
+cd skiersapp && rm -rf .git
 
 
 echo "Init GIT"
 git init && git add .
-git commit -m "Initial Commit" && git remote add origin git@github.com:jenkins-oscar/skierapp.git
+git commit -m "Initial Commit" && git remote add origin git@github.com:jenkins-oscar/skiersapp.git
 
 # create the repo on github
-hub create jenkins-oscar/skierapp.git
+hub create jenkins-oscar/skiersapp.git
 
 git push -u origin master
 
 
 # in the root of the skiapp directory
-jx import --url git@github.com:jenkins-oscar/skierapp.git --name skiaway --git-username=sharepointoscar
+jx import --url git@github.com:jenkins-oscar/skiersapp.git --git-username=sharepointoscar
 ```
 
 # Homepage Changes
@@ -79,16 +79,13 @@ git push
 # Cleanup
 
 ```bash
-# delete skierapp repo
-hub delete jenkins-x/oscar/skierapp
 
-# delete local repo 
-cd ~/git-repos && rm -rf skierapp
+# cleanup jx resources
 
 # delete app from jx
 jx delete application 
 
-# clean up resources
+# garbage collection
 jx gc previews && jx gc pods && jx gc helm
 
 ```
