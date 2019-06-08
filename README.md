@@ -22,6 +22,9 @@ hub create jenkins-oscar/skiersapp.git
 
 git push -u origin master
 
+# first remove the local repo we created, before importing into Jenkins X (it will create a folder with the repo name wherever we execute the command)
+
+rm -rf skiersapp/
 
 # in the root of the skiapp directory
 jx import --url git@github.com:jenkins-oscar/skiersapp.git --git-username=sharepointoscar
