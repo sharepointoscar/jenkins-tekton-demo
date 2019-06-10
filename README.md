@@ -2,32 +2,14 @@
 This presentation takes the user through various changes to the `skiapp` repository.  Each folder represents a **Github Branch**
 
 
-# Getting Started - Import Skiapp
-Clone repository at https://github.com/jenkins-oscar/skiapp
+# Getting Started 
+
+The setup bash script clones an existin repository into a new one and strips out the `.git` files.  
+
+It then adds all files, commits and pushes all to new repo, which is created in github using `hub`
 
 ```bash
-
-# clone only the last commit from the master branch of the ski app
-git clone --depth 1 -b master git@github.com:jenkins-oscar/skiapp.git skiersapp
-
-cd skiersapp && rm -rf .git
-
-
-echo "Init GIT"
-git init && git add .
-git commit -m "Initial Commit" && git remote add origin git@github.com:jenkins-oscar/skiersapp.git
-
-# create the repo on github
-hub create jenkins-oscar/skiersapp.git
-
-git push -u origin master
-
-# first remove the local repo we created, before importing into Jenkins X (it will create a folder with the repo name wherever we execute the command)
-
-cd ../ && rm -rf skiersapp/
-
-# in the root of the skiapp directory
-jx import --url git@github.com:jenkins-oscar/skiersapp.git --git-username=sharepointoscar
+./setup.bash
 ```
 
 # Homepage Changes
@@ -84,11 +66,6 @@ git push
 ```bash
 
 # cleanup jx resources
-
-# delete app from jx
-jx delete application 
-
-# garbage collection
-jx gc previews && jx gc pods && jx gc helm
+./cleanup.bash
 
 ```
