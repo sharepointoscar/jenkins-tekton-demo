@@ -3,7 +3,7 @@
 # make these variables parameters
 org=jenkins-oscar
 rootdir=~/git-repos
-app_name=testapp1
+app_name=skipros
 
 RED="\033[1;31m"
 GREEN="\033[1;32m"
