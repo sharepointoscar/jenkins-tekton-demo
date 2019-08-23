@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 
+# This script uses an existing github repo to create a new one and import the app into Jenkins X
+# a good approach when doing demos.
+# There is an acompaning script ./cleanup.bash which ensures all resources are deleted, including repo (local and github), plus
+# all cluster resources
+
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 NOCOLOR="\033[0m"
-app_name=skipros
+app_name=widgets
 rootdir=~/git-repos
 org=jenkins-oscar
 
@@ -36,4 +41,4 @@ cd ../ && rm -rf "$app_name"
 
 echo -e "\n${GREEN}importing app into Jenkins X!\n"
 # in the root of the git-repos directory
-jx import --url "git@github.com:jenkins-oscar/$app_name.git" --git-username=sharepointoscar
+jx import --url "git@github.com:jenkins-oscar/$app_name.git"
