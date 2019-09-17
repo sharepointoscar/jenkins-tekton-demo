@@ -3,7 +3,8 @@
 # make these variables parameters
 org=jenkins-oscar
 rootdir=~/git-repos
-app_name=cars
+app_name=skiers
+
 app_version="0.0.1"
 
 # the google project
@@ -12,8 +13,8 @@ IMAGE=$app_name
 
 # PRO TIP: If you forgot the credentials for Chartmuseum, you can get them by `jx rsh` into the pod, then executing
 # `env | grep BASIC`
-CHARTMUSEUM_CREDENTIALS="username:password"
-CHARTMUSEUM_URL=http://chartmuseum.jx.sharepointoscar.com/api/charts
+#CHARTMUSEUM_CREDENTIALS="username:password"
+#CHARTMUSEUM_URL=https://chartmuseum.jx.sharepointoscar.com/api/charts
 
 RED="\033[1;31m"
 GREEN="\033[1;32m"
@@ -68,4 +69,4 @@ hub delete "$org/$app_name" -y
 # NOTE, be sure to add BASIC AUTH USERNAME AND PASSWORD TO REQUEST FIRST
 
 #curl  -v -H "Authorization: Basic `echo -n $CHARTMUSEUM_CREDENTIALS | base64`"  --location --request DELETE "$CHARTMUSEUM_URL/$app_name/$app_version" --verbose
-curl --user $CHARTMUSEUM_CREDENTIALS --location --request DELETE "$CHARTMUSEUM_URL/$app_name/$app_version"
+#curl --user $CHARTMUSEUM_CREDENTIALS --location --request DELETE "$CHARTMUSEUM_URL/$app_name/$app_version"
