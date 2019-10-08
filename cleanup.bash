@@ -3,7 +3,7 @@
 # make these variables parameters
 org=jenkins-oscar
 rootdir=~/git-repos
-app_name=skiers
+app_name=skipros
 
 app_version="0.0.1"
 
