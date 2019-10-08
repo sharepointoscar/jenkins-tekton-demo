@@ -3,9 +3,9 @@
 # make these variables parameters
 org=jenkins-oscar
 rootdir=~/git-repos
-app_name=skipros
+app_name=skiapp
 
-app_version="0.0.1"
+app_version="0.0.4"
 
 # the google project
 PROJECT=jx-development
@@ -57,11 +57,11 @@ do
 done
 
 # garbage collection
-echo -e "\n${GREEN}perform garbage collection (pods, previews, help)..\n"
+echo -e "\n${GREEN}perform garbage collection (pods, previews, helm)..\n"
 jx gc previews && jx gc pods && jx gc helm && jx gc activities
 
-echo -e "\n${GREEN}deleting remote github repo...\n"
-hub delete "$org/$app_name" -y
+#echo -e "\n${GREEN}deleting remote github repo...\n"
+#hub delete "$org/$app_name" -y
 
 
 # 4) delete helm chart, given a version (get version by executing jx get applications)
