@@ -3,9 +3,9 @@
 # make these variables parameters
 org=jenkins-oscar
 rootdir=~/git-repos
-app_name=skiapp
+app_name=cars-rest-api
 
-app_version="0.0.4"
+app_version="0.0.69"
 
 # the google project
 PROJECT=jx-development
@@ -13,8 +13,13 @@ IMAGE=$app_name
 
 # PRO TIP: If you forgot the credentials for Chartmuseum, you can get them by `jx rsh` into the pod, then executing
 # `env | grep BASIC`
-#CHARTMUSEUM_CREDENTIALS="username:password"
-#CHARTMUSEUM_URL=https://chartmuseum.jx.sharepointoscar.com/api/charts
+# then base64 encode them like so
+#
+# echo -n 'username:mypassword' | base64
+# and add the output to the CHARTMUSEUM_CREDENTIALS credentails below
+
+CHARTMUSEUM_CREDENTIALS=YWRtaW46UGFzc3dvcmQx
+CHARTMUSEUM_URL=http://chartmuseum.cjxd.sharepointoscar.com
 
 RED="\033[1;31m"
 GREEN="\033[1;32m"
@@ -68,5 +73,7 @@ jx gc previews && jx gc pods && jx gc helm && jx gc activities
 # We should iterate through versions by executing 
 # NOTE, be sure to add BASIC AUTH USERNAME AND PASSWORD TO REQUEST FIRST
 
-#curl  -v -H "Authorization: Basic `echo -n $CHARTMUSEUM_CREDENTIALS | base64`"  --location --request DELETE "$CHARTMUSEUM_URL/$app_name/$app_version" --verbose
+echo -e "\n${GREEN}deleting Chartmuseum app version...\n"
 #curl --user $CHARTMUSEUM_CREDENTIALS --location --request DELETE "$CHARTMUSEUM_URL/$app_name/$app_version"
+curl --location --request DELETE $CHARTMUSEUM_URL"/api/charts/cars-rest-api/"$app_version \
+--header 'Authorization: Basic '$CHARTMUSEUM_CREDENTIALS

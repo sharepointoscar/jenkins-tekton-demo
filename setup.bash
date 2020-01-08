@@ -8,7 +8,7 @@
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 NOCOLOR="\033[0m"
-app_name=testapp
+app_name=skiup
 rootdir=~/git-repos
 org=jenkins-oscar
 
