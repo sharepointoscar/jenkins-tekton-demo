@@ -1,0 +1,1604 @@
+{
+  "StackSummaries": [
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack2bb13cc/8a2cd660-6b88-11ea-aa11-0a78727c3cd0",
+      "StackName": "jenkins-x-vault-stack2bb13cc",
+      "CreationTime": "2020-03-21T15:27:56.695000+00:00",
+      "DeletionTime": "2020-03-21T15:28:02.423000+00:00",
+      "StackStatus": "ROLLBACK_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/42f7e240-6b87-11ea-af9d-027518039cd6",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.682000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-jx-jxui/42e8a000-6b87-11ea-ae91-0683a9b3ada6",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.580000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-jx-tekton-bot/42e56bb0-6b87-11ea-ba97-02b749140c52",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.563000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-cert-manager-cm-cainjector/42deb4f0-6b87-11ea-9078-0ac691da606e",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.518000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-jx-exdns-external-dns/42cd9df0-6b87-11ea-9308-066f1b43b848",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.407000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-addon-iamserviceaccount-cert-manager-cm-cert-manager/42ae7d30-6b87-11ea-94bf-065424fac776",
+      "StackName": "eksctl-glasgow-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:18:47.202000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-51cceb8b-0f68-4f55-9755-e37504677cba/2a931260-6b87-11ea-8a94-028b57c1617e",
+      "StackName": "JenkinsXPolicies-51cceb8b-0f68-4f55-9755-e37504677cba",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-03-21T15:18:06.758000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-nodegroup-ng-1952ccd3/1a4216f0-6b86-11ea-98fd-029d56ff9702",
+      "StackName": "eksctl-glasgow-nodegroup-ng-1952ccd3",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T15:10:29.980000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-glasgow-cluster/94b97a60-6b84-11ea-b521-0259df39583c",
+      "StackName": "eksctl-glasgow-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T14:59:36.581000+00:00",
+      "StackStatus": "CREATE_COMPLETE",
+      "StackStatusReason": "Export eksctl-glasgow-cluster::SecurityGroup cannot be deleted as it is in use by eksctl-glasgow-nodegroup-ng-1952ccd3",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-boston-sour-nodegroup-ng-6210df75/6bf337f0-6b0d-11ea-9e88-023afdc78754",
+      "StackName": "eksctl-boston-sour-nodegroup-ng-6210df75",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T00:46:37.936000+00:00",
+      "DeletionTime": "2020-03-21T01:38:28.115000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-boston-sour-cluster/c4239520-6b0b-11ea-a7fe-0adc445e54d6",
+      "StackName": "eksctl-boston-sour-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-03-21T00:34:47.323000+00:00",
+      "DeletionTime": "2020-03-21T02:13:30.913000+00:00",
+      "StackStatus": "DELETE_FAILED",
+      "StackStatusReason": "The following resource(s) failed to delete: [VPC]. ",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager/2ed1bd00-6b04-11ea-8ce0-0614748bfb9c",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.811000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.767000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/2eccdb00-6b04-11ea-9c79-023709c486f0",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.804000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.764000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot/2ecc65d0-6b04-11ea-ad22-02dae2ce3a64",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.771000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.328000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui/2ecbf0a0-6b04-11ea-9199-025cd53975dc",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.767000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.769000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector/2ec64b50-6b04-11ea-8a94-028b57c1617e",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.732000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.784000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns/2eaaad00-6b04-11ea-ba49-0270063a5762",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:40:29.550000+00:00",
+      "DeletionTime": "2020-03-21T00:20:11.509000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-729ccead-041f-4817-afcc-6a1f277f50a5/0b29a020-6b04-11ea-803c-0a43e2aa5bac",
+      "StackName": "JenkinsXPolicies-729ccead-041f-4817-afcc-6a1f277f50a5",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-03-20T23:39:29.994000+00:00",
+      "DeletionTime": "2020-03-21T01:38:36.005000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack2c70382/145e4350-6b02-11ea-b25c-02a77ed54d64",
+      "StackName": "jenkins-x-vault-stack2c70382",
+      "CreationTime": "2020-03-20T23:25:26.534000+00:00",
+      "DeletionTime": "2020-03-21T01:38:40.054000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/e33d5140-6b00-11ea-afe2-02578391ed14",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.526000+00:00",
+      "DeletionTime": "2020-03-20T23:40:07.037000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager/e33e3ba0-6b00-11ea-8474-0ab0a05de03c",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.523000+00:00",
+      "DeletionTime": "2020-03-20T23:40:07.214000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns/e33e89c0-6b00-11ea-a155-0a51a69474f2",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.521000+00:00",
+      "DeletionTime": "2020-03-20T23:40:06.352000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot/e33bf1b0-6b00-11ea-a192-0af6392a9a8a",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.513000+00:00",
+      "DeletionTime": "2020-03-20T23:40:06.870000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui/e338bd60-6b00-11ea-bfbb-0262eb65bb44",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.497000+00:00",
+      "DeletionTime": "2020-03-20T23:40:06.691000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector/e31b2340-6b00-11ea-b1f1-0266c276fda0",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T23:16:54.293000+00:00",
+      "DeletionTime": "2020-03-20T23:40:06.522000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-57213375-54a2-4d3c-beda-cb059b6c645b/c0ce9ec0-6b00-11ea-bae0-022add0a84f2",
+      "StackName": "JenkinsXPolicies-57213375-54a2-4d3c-beda-cb059b6c645b",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-03-20T23:15:56.753000+00:00",
+      "DeletionTime": "2020-03-21T01:38:43.615000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack6bf1428/713aeeb0-6af9-11ea-a7fe-0adc445e54d6",
+      "StackName": "jenkins-x-vault-stack6bf1428",
+      "CreationTime": "2020-03-20T22:23:36.818000+00:00",
+      "DeletionTime": "2020-03-20T22:50:22.751000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stacka2c2883/8b1b0960-6af8-11ea-8cdb-0a73b7e234e0",
+      "StackName": "jenkins-x-vault-stacka2c2883",
+      "CreationTime": "2020-03-20T22:17:10.727000+00:00",
+      "DeletionTime": "2020-03-20T22:39:20.286000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector/5c37d250-6af7-11ea-8000-0a52752701a6",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.516000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.622000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui/5c375d20-6af7-11ea-b3b1-02e34c33f014",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.513000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.828000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager/5c3672c0-6af7-11ea-94bf-065424fac776",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.508000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.837000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns/5c325410-6af7-11ea-ad22-02dae2ce3a64",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.480000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.832000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/5c2e8380-6af7-11ea-9b94-0678f540705a",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.453000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.798000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot/5c0fff00-6af7-11ea-bcb9-026696022230",
+      "StackName": "eksctl-whiskey-sour-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T22:08:42.254000+00:00",
+      "DeletionTime": "2020-03-20T23:16:32.824000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-d0d69711-1b6c-4d30-a4c0-6333ec571fd9/43f70530-6af7-11ea-b3d3-024a7c148296",
+      "StackName": "JenkinsXPolicies-d0d69711-1b6c-4d30-a4c0-6333ec571fd9",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-03-20T22:08:01.845000+00:00",
+      "DeletionTime": "2020-03-21T01:38:47.154000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-nodegroup-ng-6f105ac1/6ddea880-6af2-11ea-9a33-02dbab669d48",
+      "StackName": "eksctl-whiskey-sour-nodegroup-ng-6f105ac1",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T21:33:24.786000+00:00",
+      "DeletionTime": "2020-03-21T00:18:38.825000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-whiskey-sour-cluster/cc3dd100-6af0-11ea-a8a1-0ae3e770e3b8",
+      "StackName": "eksctl-whiskey-sour-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T21:21:44.279000+00:00",
+      "DeletionTime": "2020-03-21T00:20:34.309000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-old-fashioned-nodegroup-ng-e72a7ab5/8419f060-6aec-11ea-a4de-0222bb28abfe",
+      "StackName": "eksctl-old-fashioned-nodegroup-ng-e72a7ab5",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T20:51:05.059000+00:00",
+      "DeletionTime": "2020-03-20T21:09:36.168000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-old-fashioned-cluster/089ae850-6aeb-11ea-b521-0259df39583c",
+      "StackName": "eksctl-old-fashioned-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-03-20T20:40:28.510000+00:00",
+      "DeletionTime": "2020-03-20T21:12:13.956000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-superjx-nodegroup-ng-952ea870/a8b5ef30-5d6f-11ea-96f0-06b8fd1f0384",
+      "StackName": "eksctl-superjx-nodegroup-ng-952ea870",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-03-03T16:54:34.281000+00:00",
+      "DeletionTime": "2020-03-04T20:15:13.839000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-superjx-cluster/2f040600-5d6e-11ea-a770-027d1647825c",
+      "StackName": "eksctl-superjx-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-03-03T16:44:00.696000+00:00",
+      "DeletionTime": "2020-03-04T20:17:53.597000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-nodegroup-ng-434051e4/ee93cdc0-5049-11ea-b4b1-06ca8b36c6d4",
+      "StackName": "eksctl-winterbourbon-nodegroup-ng-434051e4",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-02-15T23:21:45.487000+00:00",
+      "DeletionTime": "2020-02-16T00:19:12.776000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-cluster/231d1f80-5048-11ea-81ae-06fd04ccb534",
+      "StackName": "eksctl-winterbourbon-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-02-15T23:08:54.755000+00:00",
+      "DeletionTime": "2020-02-16T00:21:41.620000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackdaa46be/87107b20-453c-11ea-ba2a-0686cac6f814",
+      "StackName": "jenkins-x-vault-stackdaa46be",
+      "CreationTime": "2020-02-01T21:48:05.539000+00:00",
+      "DeletionTime": "2020-02-04T11:28:46.091000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-jx-tekton-bot/7d0889c0-453b-11ea-9e6e-0ac86d6e8b22",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.162000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.479000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-jx-jxui/7d072a30-453b-11ea-bc76-02353448ae88",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.153000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.345000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-jx-exdns-external-dns/7d05f1b0-453b-11ea-b86f-06d9085df35e",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.148000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.077000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager/7d0618c0-453b-11ea-9b20-0633c0d6fb32",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.147000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.607000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/7d063fd0-453b-11ea-8654-02f6ffa9fe66",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.143000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.731000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-addon-iamserviceaccount-cert-manager-cm-cainjector/7cf5c510-453b-11ea-9be7-0a78727c3cd0",
+      "StackName": "eksctl-winterbourbon-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:40:39.039000+00:00",
+      "DeletionTime": "2020-02-01T22:20:34.211000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-3b2e6564-73c8-4199-aa2e-86159d96729b/68c3c970-453b-11ea-9fcc-0259adf5d198",
+      "StackName": "JenkinsXPolicies-3b2e6564-73c8-4199-aa2e-86159d96729b",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-02-01T21:40:05.161000+00:00",
+      "DeletionTime": "2020-02-01T22:26:12.887000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-nodegroup-ng-6b1b20b4/283fc8f0-453a-11ea-9acc-0aa7561f3002",
+      "StackName": "eksctl-winterbourbon-nodegroup-ng-6b1b20b4",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:31:07.517000+00:00",
+      "DeletionTime": "2020-02-01T22:18:08.780000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-winterbourbon-cluster/7b11ca30-4538-11ea-b34e-062d4fc47da6",
+      "StackName": "eksctl-winterbourbon-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-02-01T21:19:07.598000+00:00",
+      "DeletionTime": "2020-02-01T22:20:55.654000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackef46221/11f38460-4530-11ea-8026-0aa153520eb4",
+      "StackName": "jenkins-x-vault-stackef46221",
+      "CreationTime": "2020-02-01T20:18:55.097000+00:00",
+      "DeletionTime": "2020-02-01T20:57:51.245000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackb612b60/197d8a40-447d-11ea-81d9-0ab2e05eab74",
+      "StackName": "jenkins-x-vault-stackb612b60",
+      "CreationTime": "2020-01-31T22:57:47.834000+00:00",
+      "DeletionTime": "2020-02-01T20:57:56.499000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot/9eb08990-447a-11ea-8f9f-0ae10a278694",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.769000+00:00",
+      "DeletionTime": "2020-02-01T20:58:18.588000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/9eaf7820-447a-11ea-a3e8-0a2c4898daa4",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.768000+00:00",
+      "DeletionTime": "2020-02-01T20:58:24.660000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jxui/9eb01460-447a-11ea-bf91-02e34c33f014",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.760000+00:00",
+      "DeletionTime": "2020-02-01T20:58:49.005000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns/9eaf2a00-447a-11ea-ae15-0af4fb34eba2",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.750000+00:00",
+      "DeletionTime": "2020-02-01T20:58:57.440000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector/9eae66b0-447a-11ea-9187-0678f540705a",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.746000+00:00",
+      "DeletionTime": "2020-02-01T20:59:03.687000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager/9e9e6120-447a-11ea-bda3-02ca0801967a",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T22:40:02.645000+00:00",
+      "DeletionTime": "2020-02-01T20:59:08.999000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-61efc06c-7806-4a00-9ff9-076f2200cce4/7d68f1f0-447a-11ea-9501-02e5d6ab406e",
+      "StackName": "JenkinsXPolicies-61efc06c-7806-4a00-9ff9-076f2200cce4",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-31T22:39:06.934000+00:00",
+      "DeletionTime": "2020-02-01T20:59:16.231000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack215554f/d1ec05f0-4475-11ea-a468-0a1e344a92a6",
+      "StackName": "jenkins-x-vault-stack215554f",
+      "CreationTime": "2020-01-31T22:05:41.298000+00:00",
+      "DeletionTime": "2020-02-01T20:59:21.562000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/5b2c9e40-4473-11ea-9bbf-0a9fa6069cfa",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:03.014000+00:00",
+      "DeletionTime": "2020-01-31T22:39:41.088000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jxui/5b2d1370-4473-11ea-b153-068cd0948850",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:03.013000+00:00",
+      "DeletionTime": "2020-01-31T22:39:41.092000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager/5b2b8cd0-4473-11ea-8662-02e40fd26800",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:03.009000+00:00",
+      "DeletionTime": "2020-01-31T22:39:41.098000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns/5b2a5450-4473-11ea-82aa-020cb06e9788",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:02.997000+00:00",
+      "DeletionTime": "2020-01-31T22:39:40.963000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector/5b27bc40-4473-11ea-ae6e-02bc0b348568",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:02.976000+00:00",
+      "DeletionTime": "2020-01-31T22:39:40.824000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot/5b0fa060-4473-11ea-974a-0251676acdfa",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:48:02.819000+00:00",
+      "DeletionTime": "2020-01-31T22:39:41.079000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-16a4e5f0-f5d9-4749-ab49-18a31357883d/36b28b60-4473-11ea-8e34-0a10741d0c78",
+      "StackName": "JenkinsXPolicies-16a4e5f0-f5d9-4749-ab49-18a31357883d",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-31T21:47:01.832000+00:00",
+      "DeletionTime": "2020-02-01T20:59:26.908000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack1bbdc2e/c1f60db0-4472-11ea-9501-02e5d6ab406e",
+      "StackName": "jenkins-x-vault-stack1bbdc2e",
+      "CreationTime": "2020-01-31T21:43:46.013000+00:00",
+      "DeletionTime": "2020-02-01T20:59:32.536000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot/b5bdf5e0-4471-11ea-b25c-022002055f0c",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.968000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.290000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector/b5bd59a0-4471-11ea-bc10-028ddc441728",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.961000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.135000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/b5bd59a0-4471-11ea-b1db-0a83d4208d3a",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.960000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.720000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager/b5bd59a0-4471-11ea-a647-0adc445e54d6",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.953000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.873000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns/b5ae6580-4471-11ea-b7bf-02a77ed54d64",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.869000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.572000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jxui/b5953830-4471-11ea-8e63-0624ad86cf72",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:36:15.694000+00:00",
+      "DeletionTime": "2020-01-31T21:47:41.426000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-69306640-f1c4-4b99-bba4-453b00dc741d/94b42a90-4471-11ea-aa4f-06cac24c53a2",
+      "StackName": "JenkinsXPolicies-69306640-f1c4-4b99-bba4-453b00dc741d",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-31T21:35:20.541000+00:00",
+      "DeletionTime": "2020-02-01T20:59:41.110000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackcccf2a8/35ff8be0-446f-11ea-8e63-0624ad86cf72",
+      "StackName": "jenkins-x-vault-stackcccf2a8",
+      "CreationTime": "2020-01-31T21:18:22.715000+00:00",
+      "DeletionTime": "2020-02-01T21:05:51.077000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot/27cd03a0-446e-11ea-8f2e-065639e88e5c",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.344000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.680000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager/27cd78d0-446e-11ea-90c1-06cd1a4a924e",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.340000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.950000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector/27cc6760-446e-11ea-a233-0ac711d65b04",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.331000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.948000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/27cc1940-446e-11ea-98c5-0236211bab6e",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.326000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.828000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-jxui/27cba410-446e-11ea-b812-0ab7a7abe28a",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.326000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.950000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns/27badb30-446e-11ea-b86f-06d9085df35e",
+      "StackName": "eksctl-bourbon-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:10:49.217000+00:00",
+      "DeletionTime": "2020-01-31T21:35:54.997000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-d047df77-163c-4f9e-87c5-1201191016e3/0d705b60-446e-11ea-98fe-0293beb9191e",
+      "StackName": "JenkinsXPolicies-d047df77-163c-4f9e-87c5-1201191016e3",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-31T21:10:05.113000+00:00",
+      "DeletionTime": "2020-02-01T21:00:19.145000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-nodegroup-ng-ef8fcd87/fb73abc0-446c-11ea-b1a7-026b5a8136ba",
+      "StackName": "eksctl-bourbon-nodegroup-ng-ef8fcd87",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T21:02:25.534000+00:00",
+      "DeletionTime": "2020-02-01T21:00:23.912000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-bourbon-cluster/2ecce1f0-446b-11ea-bc8e-06c2ee48308c",
+      "StackName": "eksctl-bourbon-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T20:49:32.842000+00:00",
+      "DeletionTime": "2020-02-01T22:24:41.015000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-unique-wardrobe-1580429201-nodegroup-ng-d7c4079f/5b442ab0-43bf-11ea-832b-02d0bd2cd418",
+      "StackName": "eksctl-unique-wardrobe-1580429201-nodegroup-ng-d7c4079f",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T00:19:33.840000+00:00",
+      "DeletionTime": "2020-01-31T00:39:43.070000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-unique-wardrobe-1580429201-cluster/8fd851e0-43bd-11ea-9315-0a34aba28710",
+      "StackName": "eksctl-unique-wardrobe-1580429201-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-01-31T00:06:43.185000+00:00",
+      "DeletionTime": "2020-01-31T00:42:19.101000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackb8e9d31/8a286640-438b-11ea-a3c1-0696e27486d4",
+      "StackName": "jenkins-x-vault-stackb8e9d31",
+      "CreationTime": "2020-01-30T18:08:38.647000+00:00",
+      "DeletionTime": "2020-01-30T22:55:07.186000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack36e74df/23eb74d0-438b-11ea-8662-02e40fd26800",
+      "StackName": "jenkins-x-vault-stack36e74df",
+      "CreationTime": "2020-01-30T18:05:47.116000+00:00",
+      "DeletionTime": "2020-01-30T20:38:26.250000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack425e715/f2c9c310-4313-11ea-8385-02e0f8292e0e",
+      "StackName": "jenkins-x-vault-stack425e715",
+      "CreationTime": "2020-01-30T03:52:34.576000+00:00",
+      "DeletionTime": "2020-01-30T20:38:31.994000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack9a0fd54/e18fe3b0-4311-11ea-9029-02b749140c52",
+      "StackName": "jenkins-x-vault-stack9a0fd54",
+      "CreationTime": "2020-01-30T03:37:46.702000+00:00",
+      "DeletionTime": "2020-01-30T20:41:01.988000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack3611f36/5d10a830-430d-11ea-8bd2-0a5e64882f36",
+      "StackName": "jenkins-x-vault-stack3611f36",
+      "CreationTime": "2020-01-30T03:05:26.414000+00:00",
+      "DeletionTime": "2020-01-30T20:41:08.411000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stacka6068fa/6a9bad30-430b-11ea-a860-066798daf74a",
+      "StackName": "jenkins-x-vault-stacka6068fa",
+      "CreationTime": "2020-01-30T02:51:30.137000+00:00",
+      "DeletionTime": "2020-01-30T20:41:13.251000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/f19ab9f0-4308-11ea-b580-06bedd0f3972",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:48.080000+00:00",
+      "DeletionTime": "2020-01-30T20:41:18.781000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/f19b2f20-4308-11ea-baa0-0a7bad71d2ca",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:48.080000+00:00",
+      "DeletionTime": "2020-01-30T20:41:23.128000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/f19b2f20-4308-11ea-89a8-0a14cc4f5b48",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:48.078000+00:00",
+      "DeletionTime": "2020-01-30T20:41:27.881000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/f199a880-4308-11ea-ae6e-02bc0b348568",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:48.076000+00:00",
+      "DeletionTime": "2020-01-30T20:41:32.463000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/f19a44c0-4308-11ea-aa4f-06cac24c53a2",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:48.075000+00:00",
+      "DeletionTime": "2020-01-30T20:41:36.957000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/f186e3d0-4308-11ea-bc10-028ddc441728",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:33:47.948000+00:00",
+      "DeletionTime": "2020-01-30T20:41:41.310000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-1ba40849-38b9-421a-9e26-1ed83c4516de/ca8d5200-4308-11ea-8ed1-0a43e2aa5bac",
+      "StackName": "JenkinsXPolicies-1ba40849-38b9-421a-9e26-1ed83c4516de",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-30T02:32:42.566000+00:00",
+      "DeletionTime": "2020-01-30T20:41:46.598000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/65e7a9c0-4305-11ea-8b5d-0625b49f10d2",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:25.211000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.388000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/65e5fc10-4305-11ea-96a7-025082295a9a",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:25.202000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.532000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/65e5fc10-4305-11ea-bef9-0a5d164d0af8",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:25.196000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.538000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/65e49c80-4305-11ea-8899-06343619a258",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:25.191000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.535000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/65d6e0e0-4305-11ea-82aa-020cb06e9788",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:25.101000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.537000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/65a98f50-4305-11ea-bc21-02426cd4c746",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-30T02:08:24.806000+00:00",
+      "DeletionTime": "2020-01-30T02:33:22.246000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-da75eeff-adf7-4b33-a648-12a7fe29e262/3c43df80-4305-11ea-83bf-025f06bae376",
+      "StackName": "JenkinsXPolicies-da75eeff-adf7-4b33-a648-12a7fe29e262",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-30T02:07:15.355000+00:00",
+      "DeletionTime": "2020-01-30T20:49:24.569000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack929d9e4/9a1744c0-42ed-11ea-b1e0-0a73b7e234e0",
+      "StackName": "jenkins-x-vault-stack929d9e4",
+      "CreationTime": "2020-01-29T23:18:04.891000+00:00",
+      "DeletionTime": "2020-01-30T20:49:30.429000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackc6991c2/5c8d3fd0-42eb-11ea-a745-0a95a0468cc2",
+      "StackName": "jenkins-x-vault-stackc6991c2",
+      "CreationTime": "2020-01-29T23:02:02.669000+00:00",
+      "DeletionTime": "2020-01-30T20:49:34.863000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/b472cdd0-42e8-11ea-a4b7-0a90120142e2",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.581000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.968000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/b47083e0-42e8-11ea-ba2a-0686cac6f814",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.567000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.971000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/b46e12e0-42e8-11ea-81c0-0a5539cb4a4e",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.559000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.975000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/b46e39f0-42e8-11ea-bc10-028ddc441728",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.556000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.975000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/b46efd40-42e8-11ea-af93-02ccdf8c0a60",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.551000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.967000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/b45fbb00-42e8-11ea-a860-066798daf74a",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T22:43:01.454000+00:00",
+      "DeletionTime": "2020-01-30T02:07:49.838000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-8ab841bf-3b4b-4627-803b-bcd69f2d342c/934ca0e0-42e8-11ea-974a-0251676acdfa",
+      "StackName": "JenkinsXPolicies-8ab841bf-3b4b-4627-803b-bcd69f2d342c",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-29T22:42:05.968000+00:00",
+      "DeletionTime": "2020-01-30T20:49:39.757000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackdff6b1c/2e7e94a0-42db-11ea-850e-026696022230",
+      "StackName": "jenkins-x-vault-stackdff6b1c",
+      "CreationTime": "2020-01-29T21:06:13.437000+00:00",
+      "DeletionTime": "2020-01-30T22:23:13.370000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/337daf00-42da-11ea-860a-02651c062a22",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.267000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.172000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/3378f410-42da-11ea-a861-066f1b43b848",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.237000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.059000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/33787ee0-42da-11ea-a3c1-0696e27486d4",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.236000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.192000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/3377e2a0-42da-11ea-8470-021df5e6d67a",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.232000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.179000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/337830c0-42da-11ea-aa63-06e601cb709c",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.231000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.176000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/33678ef0-42da-11ea-af4a-0a053a875a00",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:59:12.122000+00:00",
+      "DeletionTime": "2020-01-29T22:42:40.181000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-51edd8b8-6fab-4b18-ad42-572d8e2816cd/0aa80a30-42da-11ea-bcfa-024332e0cf6e",
+      "StackName": "JenkinsXPolicies-51edd8b8-6fab-4b18-ad42-572d8e2816cd",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-29T20:58:03.762000+00:00",
+      "DeletionTime": "2020-01-30T20:49:51.214000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stackf7e0c73/132304e0-42d9-11ea-a1f0-0a7df06cf190",
+      "StackName": "jenkins-x-vault-stackf7e0c73",
+      "CreationTime": "2020-01-29T20:51:08.552000+00:00",
+      "DeletionTime": "2020-01-30T22:23:18.934000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/1850f770-42d8-11ea-bc8e-06c2ee48308c",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.690000+00:00",
+      "DeletionTime": "2020-01-29T20:58:42.900000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/1850f770-42d8-11ea-8e63-0624ad86cf72",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.687000+00:00",
+      "DeletionTime": "2020-01-29T20:58:43.022000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/1850f770-42d8-11ea-a6b1-0294f1fd1ce8",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.684000+00:00",
+      "DeletionTime": "2020-01-29T20:58:43.031000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/18505b30-42d8-11ea-a647-0adc445e54d6",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.682000+00:00",
+      "DeletionTime": "2020-01-29T20:58:43.024000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/18508240-42d8-11ea-bcca-0aaf12ba6aa0",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.682000+00:00",
+      "DeletionTime": "2020-01-29T20:58:43.043000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/183e80e0-42d8-11ea-9cfe-0abdf39f8170",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:44:07.563000+00:00",
+      "DeletionTime": "2020-01-29T20:58:42.763000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-9dfe1c89-4fdb-4fa9-b14c-c3006e9296f1/f2777ba0-42d7-11ea-9b4f-0266c276fda0",
+      "StackName": "JenkinsXPolicies-9dfe1c89-4fdb-4fa9-b14c-c3006e9296f1",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-29T20:43:04.188000+00:00",
+      "DeletionTime": "2020-01-30T20:49:58.841000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/jenkins-x-vault-stack6945871/07da4100-42d6-11ea-bd28-0aa772971980",
+      "StackName": "jenkins-x-vault-stack6945871",
+      "CreationTime": "2020-01-29T20:29:21.125000+00:00",
+      "DeletionTime": "2020-01-30T22:23:25.966000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui/c13271b0-42d4-11ea-96a7-025082295a9a",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jxui",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jxui\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:13.033000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.850000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector/c131fc80-42d4-11ea-bc10-028ddc441728",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cainjector",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cainjector\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:13.031000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.859000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot/c131d570-42d4-11ea-a9be-068a25e2e0ea",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-tekton-bot",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/tekton-bot\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:13.030000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.698000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager/c131ae60-42d4-11ea-9d44-0a79dfa95450",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-cert-manager-cm-cert-manager",
+      "TemplateDescription": "IAM role for serviceaccount \"cert-manager/cm-cert-manager\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:13.027000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.865000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild/c131ae60-42d4-11ea-8663-0a50208a3cb8",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-jenkins-x-controllerbuild",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/jenkins-x-controllerbuild\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:13.027000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.863000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns/c1207050-42d4-11ea-8f9f-0ae10a278694",
+      "StackName": "eksctl-cjxd6clusta-addon-iamserviceaccount-jx-exdns-external-dns",
+      "TemplateDescription": "IAM role for serviceaccount \"jx/exdns-external-dns\" [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T20:20:12.910000+00:00",
+      "DeletionTime": "2020-01-29T20:43:38.835000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/JenkinsXPolicies-cb7f742b-9d75-47da-acd6-009832c495c3/a6ca7ed0-42d4-11ea-872b-0a59d9cb58e4",
+      "StackName": "JenkinsXPolicies-cb7f742b-9d75-47da-acd6-009832c495c3",
+      "TemplateDescription": "Template to generate the necessary IAM Policies for Jenkins-X EKS support ",
+      "CreationTime": "2020-01-29T20:19:28.735000+00:00",
+      "DeletionTime": "2020-01-30T21:42:21.314000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-nodegroup-ng-00c95a29/5a2ddcc0-42cf-11ea-9750-02ad4dfa3158",
+      "StackName": "eksctl-cjxd6clusta-nodegroup-ng-00c95a29",
+      "TemplateDescription": "EKS nodes (AMI family: AmazonLinux2, SSH access: false, private networking: false) [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T19:41:32.812000+00:00",
+      "DeletionTime": "2020-01-30T21:43:03.143000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6clusta-cluster/d65f7350-42cd-11ea-b03b-025721e68704",
+      "StackName": "eksctl-cjxd6clusta-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T19:30:42.289000+00:00",
+      "DeletionTime": "2020-01-30T22:23:39.333000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-cjxd6-cluster/c2080ad0-42cc-11ea-8382-022a2754311a",
+      "StackName": "eksctl-cjxd6-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T19:22:58.669000+00:00",
+      "DeletionTime": "2020-01-30T20:55:50.074000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    },
+    {
+      "StackId": "arn:aws:cloudformation:us-west-2:653931956080:stack/eksctl-unique-gopher-1580325598-cluster/579c8ae0-42cc-11ea-bca2-02722f0e300c",
+      "StackName": "eksctl-unique-gopher-1580325598-cluster",
+      "TemplateDescription": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+      "CreationTime": "2020-01-29T19:20:00.142000+00:00",
+      "DeletionTime": "2020-01-30T21:19:01.010000+00:00",
+      "StackStatus": "DELETE_COMPLETE",
+      "DriftInformation": {
+        "StackDriftStatus": "NOT_CHECKED"
+      }
+    }
+  ]
+}
