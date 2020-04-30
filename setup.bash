@@ -8,7 +8,7 @@
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 NOCOLOR="\033[0m"
-app_name=skiup
+app_name=skipros
 rootdir=~/git-repos
 org=jenkins-oscar
 
@@ -39,6 +39,6 @@ git push -u origin master
 echo -e "\n${GREEN}removing local clone, so we can import from git url instead...\n"
 cd ../ && rm -rf "$app_name"
 
-echo -e "\n${GREEN}importing app into Jenkins X!\n"
-# in the root of the git-repos directory
-jx import --url "git@github.com:jenkins-oscar/$app_name.git"
+# echo -e "\n${GREEN}importing app into Jenkins X!\n"
+# # in the root of the git-repos directory
+# jx import --url "git@github.com:jenkins-oscar/$app_name.git"
